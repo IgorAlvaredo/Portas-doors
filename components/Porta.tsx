@@ -1,6 +1,13 @@
+import PortaModel from "@/model/porta";
+import React from "react";
 import styles from "../styles/Porta.module.css";
 
+interface PortaProps {
+  porta: PortaModel
+}
+
 export default function Porta(props) {
+  const {porta} = props
   const selecionada = props.selecionada ? styles.selecionada : '';
 
   return (

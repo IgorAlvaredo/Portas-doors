@@ -1,4 +1,4 @@
-import PortaModel from "@/model/porta"
+import PortaModel from "../model/porta"
 import { useState } from "react"
 import Porta from "../components/Porta"
 import Presente from "../components/Presente"
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
         <Porta Porta={p1}/>
-        <Porta />
+        <Porta Porta={p1}/>
     </div>
   )
 }

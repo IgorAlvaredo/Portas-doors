@@ -1,4 +1,4 @@
-import PortaModel from "@/model/porta";
+import PortaModel from "../model/porta";
 import React from "react";
 import styles from "../styles/Porta.module.css";
 

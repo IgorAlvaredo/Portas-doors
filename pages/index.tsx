@@ -6,9 +6,8 @@ import Presente from "../components/Presente"
 export default function Home() {
   const [p1, setP1] = useState(new PortaModel(1))
   return (
-    <div>
-        <Porta Porta={p1}/>
-        <Porta Porta={p1}/>
+    <div style={{display:'flex'}}>
+        <Porta value={p1} onChange={novaPorta=> setP1(novaPorta)}/>
     </div>
   )
 }

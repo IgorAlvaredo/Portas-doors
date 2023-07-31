@@ -1,8 +1,9 @@
 import styles from "../styles/Jogo.module.css"
 import { useState } from "react";
-import Porta from "../components/Porta";
-import { atualizarPortas, criarPortas } from "../functions/portas";
+import Porta from "../../../components/Porta";
+import { atualizarPortas, criarPortas } from "../../../functions/portas";
 import Link from "next/link"
+import { Router } from "next/router";
 
 
 export default function jogo() {

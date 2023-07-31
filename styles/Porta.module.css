@@ -1,4 +1,5 @@
 .area {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +10,7 @@
 
 .estrutura {
     display: flex;
+    flex-direction: column-reverse;
     flex-grow: 1;
     border-left: 5px solid brown;
     border-top: 5px solid brown;
